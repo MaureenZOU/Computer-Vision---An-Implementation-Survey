@@ -15,3 +15,4 @@ Explore Top Researchers' work, get the fowllowing information:
 #### Model Structure
 A general Encoder structure
 #### Network Structure
+![alt text](https://github.com/MaureenZOU/What-could-Deep-Learning-do/blob/master/imgs/resnet.png)
