@@ -39,7 +39,8 @@ A general Encoder structure
 #### Initialization and Optimization
 * Kaiming Initialization
 * SGD  lr = 0.1, divided by 10 when the error plateaus, weight decay of 0.0001, a momentum of 0.9
-* 60 × 10^4 iterations
+* 60 × 10^4 iterations (This number is their max training iterations)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `This should be high lighted, as it is not a standard thing to go through a lot of epochs. And this number is even less than the training image in imageNet`
 * batch_size = 128/256
 
 
