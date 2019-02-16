@@ -42,3 +42,4 @@ A general Encoder structure
 * 60 × 10^4 iterations
 
 
+
