@@ -16,3 +16,6 @@ Explore Top Researchers' work, get the fowllowing information:
 A general Encoder structure
 #### Network Structure
 ![alt text](https://github.com/MaureenZOU/What-could-Deep-Learning-do/blob/master/imgs/resnet.png)
+#f03c15 lalala
+
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
