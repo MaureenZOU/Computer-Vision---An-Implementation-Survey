@@ -6,7 +6,7 @@ Explore Top Researchers' work, get the fowllowing information:
 * Network Structure
 * Dataset Scale
 * Data Augmentation
-* Hyperparameters and Optimizers
+* Initialization and Optimization
 
 ## Kaiming He
 ### [Deep Residual Learning for Image Recognition](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
@@ -34,7 +34,7 @@ A general Encoder structure
 * Standard color augmentation [ref](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 * Batch Normalization after each convolution before activation
 
-# Hyperparameters and Optimizers
+# Initialization and Optimization
 * Kaiming Initialization
 * SGD  lr = 0.1, divided by 10 when the error plateaus, weight decay of 0.0001, a momentum of 0.9
 * 60 × 10^4 iterations
