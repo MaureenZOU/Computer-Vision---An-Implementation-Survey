@@ -40,7 +40,7 @@ A general Encoder structure
 * Kaiming Initialization
 * SGD  lr = 0.1, divided by 10 when the error plateaus, weight decay of 0.0001, a momentum of 0.9
 * 60 × 10^4 iterations (This number is their max training iterations)
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `This should be high lighted, as it is not a standard thing to go through a lot of epochs. And this number is even less than the training image in imageNet`
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `This should be high lighted. For myself I usually go through lots of epochs (It seems wrong now), but according to He's paper, they even not go through all the training data in ImageNet. (Which is actually strange)`
 * batch_size = 128/256
 
 
