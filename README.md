@@ -12,8 +12,7 @@ Explore Top Researchers' work, get the fowllowing information:
 ### [Deep Residual Learning for Image Recognition](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
 #### Problem Setting
-* ImageNet Classification
-* Cifar 10
+* ImageNet/Cifar 10 Classification
 * Object Detection on PASCAL and MS COCO
 
 #### Model Structure
@@ -25,7 +24,8 @@ A general Encoder structure
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `why the channel size first increase and decrease like 256 - 1024 - 512`
 
 #### Dataset Scale
-1.28 million train, 50k validation, 100k test images (ImageNet)
+1.28 million train, 50k validation, 100k test images (ImageNet), 1000 class
+50k train, 10k test, 10 class
 
 
 #### Data Augmentation
@@ -40,6 +40,7 @@ A general Encoder structure
 * Kaiming Initialization
 * SGD  lr = 0.1, divided by 10 when the error plateaus, weight decay of 0.0001, a momentum of 0.9
 * 60 × 10^4 iterations
+* batch_size = 128/256
 
 
 
