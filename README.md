@@ -18,15 +18,17 @@ Explore Top Researchers' work, get the fowllowing information:
 
 #### Model Structure
 A general Encoder structure
+
 #### Network Structure
 ![alt text](https://github.com/MaureenZOU/What-could-Deep-Learning-do/blob/master/imgs/resnet.png)
+
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `why the channel size first increase and decrease like 256 - 1024 - 512`
 
-# Dataset Scale
+#### Dataset Scale
 1.28 million train, 50k validation, 100k test images (ImageNet)
 
 
-# Data Augmentation
+#### Data Augmentation
 * Scale Augmentation \[256, 480\] [ref](https://arxiv.org/pdf/1409.1556.pdf)
 * Flipping (left and right flip)
 * Random Crop (224)
@@ -34,7 +36,7 @@ A general Encoder structure
 * Standard color augmentation [ref](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 * Batch Normalization after each convolution before activation
 
-# Initialization and Optimization
+#### Initialization and Optimization
 * Kaiming Initialization
 * SGD  lr = 0.1, divided by 10 when the error plateaus, weight decay of 0.0001, a momentum of 0.9
 * 60 × 10^4 iterations
