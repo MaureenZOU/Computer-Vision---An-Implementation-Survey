@@ -8,10 +8,11 @@ Explore Top Researchers' work, get the fowllowing information:
 * Data Augmentation
 * Initialization and Optimization
 
-- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Classification and Object Detection`
+
 
 ## Kaiming He
 ### [Deep Residual Learning for Image Recognition](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Classification and Object Detection`
 
 #### Problem Setting
 * ImageNet/Cifar 10 Classification
@@ -48,6 +49,7 @@ A general Encoder structure
 ## Saining Xie
 
 ### [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf)
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Classification and Object Detection`
 
 #### Problem Setting
 * ImageNet/Cifar 10 classification
