@@ -37,6 +37,8 @@ A general Encoder structure
 * Random Crop (224)
 * Mean subtraction (per pixel)
 * Standard color augmentation [ref](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `First, I think this method has the similar effect with ColorJitter in PyTorch code. However as the below repo points out that, this modification may have offset with batchnorm. We could just think, we shift the data around to make the network easy to train. But if we make the data harder, then there is an offset effect for batch-norm.`
+[repo](https://github.com/koshian2/PCAColorAugmentation)
 * Batch Normalization after each convolution before activation
 
 #### Initialization and Optimization
